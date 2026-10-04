@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ورود | Radiag Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+</head>
+<body class="page-login">
+  <div class="atmosphere" aria-hidden="true">
+    <div class="atmosphere__glow atmosphere__glow--a"></div>
+    <div class="atmosphere__glow atmosphere__glow--b"></div>
+  </div>
+
+  <main class="login">
+    <form class="login__panel" action="overview.html" method="get" autocomplete="on">
+      <div class="login__brand">
+        <div class="logo-orb logo-orb--sm">
+          <img
+            class="logo-orb__img"
+            src="assets/logo.png"
+            alt="Radiag Board"
+            width="280"
+            height="158"
+          />
+        </div>
+        <h1 class="login__title">ورود به Radiag Board</h1>
+        <p class="login__subtitle">داشبورد اپراتوری شبکه</p>
+      </div>
+
+      <label class="field">
+        <span class="field__label">ایمیل یا نام کاربری</span>
+        <input
+          class="field__input"
+          type="text"
+          name="username"
+          inputmode="email"
+          autocomplete="username"
+          required
+          placeholder="name@operator.com"
+        />
+      </label>
+
+      <label class="field">
+        <span class="field__label">رمز عبور</span>
+        <input
+          class="field__input"
+          type="password"
+          name="password"
+          autocomplete="current-password"
+          required
+          placeholder="••••••••"
+        />
+      </label>
+
+      <button class="btn btn--primary btn--block" type="submit">ورود</button>
+
+      <p class="login__secondary">
+        <a href="index.html">بازگشت</a>
+        <span aria-hidden="true">·</span>
+        <a href="mailto:demo@radiag.example?subject=Radiag%20Board%20Demo">درخواست دمو</a>
+      </p>
+    </form>
+  </main>
+</body>
+</html>
